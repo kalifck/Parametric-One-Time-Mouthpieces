@@ -1,0 +1,50 @@
+# Parametric One-Time Mouthpieces (OpenSCAD Array Generator)
+
+![Mouthpieces Preview](preview.png) *(Add a screenshot from OpenSCAD here later)*
+
+A highly parametric OpenSCAD script for generating custom, one-time 3D-printable mouthpieces. Originally designed for economical manufacturing, experimentation, and 3D printing in grids directly attached to a breakaway sheet. 
+
+Whether you need a sleek whistle tip, an ergonomic flare, or twisted geometric designs, this script dynamically guarantees proper wall thickness based on your nozzle size for super-fast printing (including vase-mode logic).
+
+## 🌟 Key Features
+
+1. **Automated Grid Layout:** Generates a parametrically spaced array (`N` x `M` columns and rows).
+2. **Built-in Breakaway Sheet:** Automatically mounts all pieces onto a bottom layer (or several) with pre-cut air-holes, ensuring they stick to your print bed until snapped off smoothly. 
+3. **Anti-Sharp Burr Removal:** A mathematical system that inverts sharp corners where the base connects to the sheet—meaning when users pluck them off, the fracture surface is tucked away and won't scratch their lips.
+4. **Dynamic Transition Mesh:** Features a smooth S-curve lofting algorithm. One end connects perfectly round to a hose (guaranteed seal), while the other smoothly sweeps into an intricate mouthpiece shape!
+5. **Print Math Automation:** You define the `nozzle_diameter` (e.g., 0.4mm) and `wall_perimeters` (e.g., 1 or 2), and the script internally calculates exactly how thick every feature should be so slicers trace them flawlessly without gap fills.
+
+## 🎨 The "Pezaz" Styles
+
+This script contains a dropdown library of intricate shapes for the end user's lips:
+
+- **Classic:** Straight, smooth cone taper.
+- **Twisted_Hex:** A spiraling hexagon that twists by a specified angle. Beautiful in Silk PLA!
+- **Ribbed:** A beautiful 12-point wave outline that tapers perfectly at the ends.
+- **Ergonomic_Flare:** Uses an ease-in-out mathematical spline to create a trumpet-like curve.
+- **Whistle_Flat:** Keeps a perfect circle structure for the hose connection, then majestically swoops out into an oval rectangular flat shape for ergonomic puckering.
+
+## 🛠️ How to Use
+
+1. **Download OpenSCAD:** This tool runs on [OpenSCAD](https://openscad.org/downloads.html).
+2. **Open the File:** Open `one_time_mouthpieces.scad`.
+3. **Customize your Array:** Use the **Customizer Panel** (usually docked on the right side) to play with all the settings. 
+   * Set your specific Nozzle Width.
+   * Toggle the Grid Array sizes.
+   * Pick your Style.
+4. **Render:**
+   * *(Tip: While playing with the grid, set `resolution` to 24 (Draft) for extremely fast visual updating)*
+   * Press `F6` to render the final mesh (Change `resolution` to 36 or 72 before this step for buttery smooth geometry). 
+5. **Export:** Press `F7` to export as `.STL` or `.3MF` and bring it into your slicer!
+
+## 🖨️ Slicing & Economics Advice
+
+When producing these economically:
+
+1. Try printing **1 Perimeter thick** (`wall_perimeters = 1` in the script) and using standard vase-like contours. Ensure your seam alignment is continuous. 
+2. Because 1kg of PLA produces thousands of these lightweight shells, fine-tuning your Retraction settings is crucial since grid-style printing demands traveling between pieces on every layer.
+3. If selling in bulk, calculating the exact weight of a 5x5 array allows you to mathematically break down your exact material consumption per unit!
+
+## 📜 License
+
+Feel free to use and modify the script. If you enhance it, share it back with the 3D printing community!
