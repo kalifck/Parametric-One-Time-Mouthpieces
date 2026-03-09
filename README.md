@@ -1,6 +1,6 @@
 # Parametric One-Time Mouthpieces (OpenSCAD Array Generator)
 
-![Mouthpieces Preview](preview.png) *(Add a screenshot from OpenSCAD here later)*
+![Mouthpieces Preview](preview.png)
 
 A highly parametric OpenSCAD script for generating custom, one-time 3D-printable mouthpieces. Originally designed for economical manufacturing, experimentation, and 3D printing in grids directly attached to a breakaway sheet. 
 
