@@ -6,6 +6,8 @@ A highly parametric OpenSCAD script for generating custom, one-time 3D-printable
 
 Whether you need a sleek whistle tip, an ergonomic flare, or twisted geometric designs, this script dynamically guarantees proper wall thickness based on your nozzle size for super-fast printing (including vase-mode logic).
 
+> **🚀 Quick Start:** Don't want to use OpenSCAD just yet? You can test print the pre-rendered **[5x5 Mouthpieces Array (`oneTimeMouthPieces 5x5.stl`)](./oneTimeMouthPieces%205x5.stl)** right now!
+
 ## 🌟 Key Features
 
 1. **Automated Grid Layout:** Generates a parametrically spaced array (`N` x `M` columns and rows).
