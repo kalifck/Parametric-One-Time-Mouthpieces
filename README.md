@@ -45,6 +45,12 @@ When producing these economically:
 2. Because 1kg of PLA produces thousands of these lightweight shells, fine-tuning your Retraction settings is crucial since grid-style printing demands traveling between pieces on every layer.
 3. If selling in bulk, calculating the exact weight of a 5x5 array allows you to mathematically break down your exact material consumption per unit!
 
-## 📜 License
+## 📜 License & Monetization
 
-Feel free to use and modify the script. If you enhance it, share it back with the 3D printing community!
+This project is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+- **✅ Personal Use (Free):** You are fully encouraged to download, play with, modify, and print these designs for yourself, your friends, and educational purposes!
+- **❌ Commercial Use (Requires Licensing):** You may **NOT** use this script to mass-produce mouthpieces for sale, nor can you sell the generated 3D models or variations of this script, without a separate commercial agreement.
+
+**Want to use this commercially?** 
+If you are a business or individual looking to sell the generated mouthpieces (or the script itself), I'd love to work with you! Please contact me at **[Insert Your Email or Contact Info Here]** to discuss purchasing a commercial license.
