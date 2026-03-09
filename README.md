@@ -1,12 +1,12 @@
-# Parametric One-Time Mouthpieces (OpenSCAD Array Generator)
+# Parametric 3D-Printable Hookah & Shisha Mouthpieces (OpenSCAD)
 
 ![Mouthpieces Preview](preview.png)
 
-A highly parametric OpenSCAD script for generating custom, one-time 3D-printable mouthpieces. Originally designed for economical manufacturing, experimentation, and 3D printing in grids directly attached to a breakaway sheet. 
+A highly parametric OpenSCAD script for generating custom, single-use **Hookah, Shisha, and Waterpipe disposable mouthpieces**. Originally designed to replace generic plastic tips with premium ergonomic equivalents, this script focuses on economical manufacturing, high hygiene, and 3D printing massive batches directly attached to a snap-off breakaway sheet. 
 
-Whether you need a sleek whistle tip, an ergonomic flare, or twisted geometric designs, this script dynamically guarantees proper wall thickness based on your nozzle size for super-fast printing (including vase-mode logic).
+Whether you need a sleek whistle tip for your nargile, an ergonomic flare, or twisted geometric designs to impress guests at a lounge or party, this script dynamically math-matches its wall thickness to your 3D printer's nozzle size for super-fast, vase-mode style printing.
 
-> **🚀 Quick Start:** Don't want to use OpenSCAD just yet? You can test print the pre-rendered **[5x5 Mouthpieces Array (`oneTimeMouthPieces 5x5.stl`)](./oneTimeMouthPieces%205x5.stl)** right now!
+> **🚀 Quick Start:** Don't want to use OpenSCAD just yet? You can test print the pre-rendered **[5x5 Hookah Mouthpieces Array (`oneTimeMouthPieces 5x5.stl`)](./oneTimeMouthPieces%205x5.stl)** right now!
 
 ## 🌟 Key Features
 
